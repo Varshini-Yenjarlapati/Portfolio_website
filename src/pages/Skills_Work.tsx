@@ -31,9 +31,11 @@ const SkillsWork = () => {
       src={logo.src}
       alt={logo.alt}
       className={`rounded-full shadow-md bg-white p-2 ${logoSizeClass} h-auto`}
+      loading="lazy"         
+      decoding="async"
       initial={{ opacity: 0, y: -20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay: i * 0.1 }}
+      transition={{ duration: 0.3, delay: i * 0.04 }}
       viewport={{ once: false }}
     />
     <p className="mt-3 text-xs font-medium text-gray-700 capitalize">
