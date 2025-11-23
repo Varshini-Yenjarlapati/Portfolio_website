@@ -5,7 +5,7 @@ interface ProjectCardProps {
   title: string;
   description: string;
   image: string;
-  githubLink: string;
+  githubLink?: string;
   liveLink?: string;
   className?: string;
 }

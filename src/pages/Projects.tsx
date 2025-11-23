@@ -14,8 +14,8 @@ const projects = [
     title: "Portfolio Website",
     description: "A personal portfolio website built using React, TypeScript, Tailwind CSS, and Framer Motion. It features a responsive design, smooth animations, and showcases various projects with interactive project cards and reusable components.",
     image: PortfolioImg,
-    githubLink: "#",
-    liveLink: "#",
+    githubLink: "https://github.com/Varshini-Yenjarlapati/Portfolio_website",
+    liveLink: "https://varshiniyenjarlapati-portfolio.netlify.app/",
   },
   {
     title: "Movie Explorer",
@@ -29,27 +29,27 @@ const projects = [
     title: "AI Game Agent for Connect Four",
     description: "Developed an AI-driven Connect Four agent that applies search algorithms such as Minimax, Alpha-Beta Pruning to determine optimal moves in real time. Implemented heuristic evaluation and pruning techniques to enhance decision-making speed and gameplay performance.",
     image: ConnectImg,
-    githubLink: "#",
+    // githubLink: "",
   },
   {
     title: "Reflex-Based Smart Vacuum Cleaner ",
     description: "Simulated an autonomous vacuum-cleaning robot using reflex-based agent architecture in a grid environment. The agent employs multiple cleaning strategies to compare efficiency based on energy consumption and area coverage, reflecting real-world smart home and robotic automation systems.",
     image: VaccumeImg,
-    githubLink: "#",
+    // githubLink: "",
     
   },
   {
     title: "Adaptive N-Queens Problem Solver",
     description: "Designed and implemented an N-Queens problem solver leveraging both classical and heuristic search methods Backtracking, Simulated Annealing, and Genetic Algorithms—to evaluate performance trade-offs between solution accuracy and computational efficiency.",
     image: nQueensImg,
-    githubLink: "#",
+    // githubLink: "",
     
   },
   {
     title: "Goal-Based Maze Solving Agent",
     description: "Built an autonomous pathfinding agent that navigates mazes using search algorithms like BFS, DFS, Greedy Best-First Search, and A*. It measures performance through nodes expanded, path cost, and runtime, while visualizing the optimal route to demonstrate efficient navigation.",
     image: MazeImg,
-    githubLink: "#",
+    // githubLink: "",
    
   },
   
