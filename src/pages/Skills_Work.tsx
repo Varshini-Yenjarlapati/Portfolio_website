@@ -3,10 +3,10 @@ import { logos } from "../constants/images";
 const SkillsWork = () => {
   const logoSizeClass = "w-20 h-20"; 
 
-const frontendLogos = Object.entries(logos).map(([key, src]) => ({
-    src,
-    alt: key.replace("Logo", ""), 
-  }));
+// const frontendLogos = Object.entries(logos).map(([key, src]) => ({
+//     src,
+//     alt: key.replace("Logo", ""), 
+//   }));
 
 
   return (
