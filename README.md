@@ -4,6 +4,9 @@ A modern, fully responsive personal portfolio built with **React**, **TypeScript
 This website highlights my **projects, skills, experience, education**, and includes a fully functional EmailJS contact form.
 
 ---
+##  Live Demo
+(https://varshiniyenjarlapati-portfolio.netlify.app/)
+---
 
 ##  Features
 
@@ -65,10 +68,5 @@ npm run build
 
 ## Contact
 The contact page uses **EmailJS** to send messages directly to your inbox.
-
----
-
-##  Live Demo
-(Add your deployed link)
 
 ---
