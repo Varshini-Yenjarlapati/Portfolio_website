@@ -53,6 +53,24 @@ This website highlights my **projects, skills, experience, education**, and incl
 - React Icons  
 
 ---
+##  EmailJS Contact Form Setup (For Anyone Cloning This Project)
+
+This portfolio uses **EmailJS** to send messages from the contact form.  
+If you clone this repo and want the contact form to work, **you must set up your own EmailJS account and keys**.
+
+###  Steps
+
+1. Create an account at **https://emailjs.com/**
+2. Create:
+   - an **Email Service**
+   - an **Email Template**
+   - a **Public Key**
+3. Create a `.env.local` file in the project root:
+
+```bash
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
 
 ##  Installation & Setup
 
