@@ -26,21 +26,21 @@ const SkillsWork = () => {
   {/* Logos container */}
   <div className="flex flex-wrap items-center justify-center w-full gap-6">
   {logos.map((logo, i) => (
-    <div key={i} className="flex flex-col items-center">
-    <motion.img
-      src={logo.src}
-      alt={logo.alt}
-      className={`rounded-full shadow-md bg-white p-2 ${logoSizeClass} h-auto`}
-      loading="lazy"         
-      decoding="async"
-      initial={{ opacity: 0, y: -20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.3, delay: i * 0.04 }}
-      viewport={{ once: false }}
-    />
-    <p className="mt-3 text-xs font-medium text-gray-700 capitalize">
-      {logo.alt}
-    </p>
+    <div key={logo.alt} className="flex flex-col items-center">
+      <motion.img
+        src={logo.src}
+        alt={logo.alt}
+        className={`rounded-full shadow-md bg-white p-2 ${logoSizeClass} h-auto`}
+        loading="lazy"
+        decoding="async"
+        initial={{ opacity: 0, y: -20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.3, delay: i * 0.02 }}
+        viewport={{ once: false }}
+      />
+      <p className="mt-3 text-xs font-medium text-gray-700 capitalize">
+        {logo.alt}
+      </p>
     </div>
   ))}
 </div>

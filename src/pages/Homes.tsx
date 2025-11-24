@@ -108,4 +108,4 @@ export default function Homes() {
     </section>
   );
 }
-"../Profile_picture1.png"
+

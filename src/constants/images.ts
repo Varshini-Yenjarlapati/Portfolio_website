@@ -40,7 +40,7 @@ export const logos = [
     {src:reduxLogo,alt:"Redux"},
     {src:sqlLogo,alt:"SQL"},
     {src:jsLogo,alt:"JavaScript"},
-    {src:nextjsLogo,alt:"Next js"},
+    {src:nextjsLogo,alt:"Nextjs"},
     
    
 ];

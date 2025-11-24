@@ -2,6 +2,12 @@ import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import cellphone from "/mobile.png";
 import email from "/email.jpg";
+
+
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID as string;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string;
+const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string;
+
 export default function Contact() {
   const form = useRef<HTMLFormElement>(null);
 
@@ -12,10 +18,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "service_tr1g2zx",  
-        "template_dmpq83k",  
+        SERVICE_ID,  
+        TEMPLATE_ID,  
         form.current,
-        "5A8lUtZNp5uIKNclp"    
+        PUBLIC_KEY    
       )
       .then(
         () => {
