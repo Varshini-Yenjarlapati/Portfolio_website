@@ -60,20 +60,20 @@ const SkillsWork = () => {
     <div className="p-4 text-left bg-[#D9D9D9] border shadow-md rounded-2xl">
       <h3 className="text-base font-semibold text-gray-800 sm:text-lg sm:mb-2">Frontend Developer Intern – GBCS</h3>
       <p className="mt-1 text-sm italic text-gray-600">
-        July 2025 – Present | Designed and developed React interfaces, improving UI workflow efficiency by 40%.
+        July 2025 – Present | Built responsive React interfaces with AI-assisted workflows, integrated REST APIs, and deployed features on Vercel to improve UI accuracy and development speed by 40%.
       </p>
     </div>
 
     <div className="p-4 text-left bg-[#D9D9D9] border shadow-md rounded-2xl">
       <h3 className="text-base font-semibold text-gray-800 sm:text-lg sm:mb-2">Associate Software Developer – Capgemini</h3>
       <p className="mt-1 text-sm italic text-gray-600">
-        Aug 2021 – July 2023 | Built AI-integrated web apps using React, Node.js & Tailwind CSS.
+        Aug 2021 – July 2023 | Developed responsive React UI modules and integrated Django workflows for an onboarding platform supporting 5,000+ users annually.
       </p>
     </div>
     <div className="p-4 text-left bg-[#D9D9D9] border shadow-md rounded-2xl">
       <h3 className="text-base font-semibold text-gray-800 sm:text-lg sm:mb-2">UI Developer Intern – DMonk's Software LLP</h3>
       <p className="mt-1 text-sm italic text-gray-600">
-        Jan 2021 – July 2021 | Built AI-integrated web apps using React, Node.js & Tailwind CSS.
+        Aug 2020 – July 2021 | Developed a responsive healthcare website using React, HTML, CSS, and Node.js with interactive components, improved accessibility, and ensured cross-browser reliability.
       </p>
     </div>
 
